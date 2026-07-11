@@ -3,6 +3,10 @@
 A dependency-free static educational site about peptides, peptide medicines,
 evidence levels, safety red flags, and source quality.
 
+## Live site
+
+https://reap3risgodawful.github.io/peptide-super-guide/
+
 ## Run locally
 
 Open `index.html` in a browser.
