@@ -7,6 +7,11 @@ named peptide examples, evidence levels, safety red flags, and source quality.
 
 https://reap3risgodawful.github.io/peptide-super-guide/
 
+## Super file
+
+- Website page: https://reap3risgodawful.github.io/peptide-super-guide/super-file.html
+- Markdown file: [PEPTIDE_SUPER_FILE.md](PEPTIDE_SUPER_FILE.md)
+
 ## Run locally
 
 Open `index.html` in a browser.

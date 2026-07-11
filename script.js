@@ -40,6 +40,14 @@ const evidenceItems = [
     tags: ["marketing risk", "quality unknown"],
   },
   {
+    title: "Retatrutide and cagrilintide offers",
+    level: "High caution",
+    filter: "avoid",
+    summary:
+      "FDA says these are not components of approved drugs, have not been found safe and effective for any condition, and cannot be used in compounding under federal law.",
+    tags: ["not approved", "not compoundable"],
+  },
+  {
     title: "Research-only peptides",
     level: "High caution",
     filter: "avoid",
