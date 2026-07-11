@@ -1,0 +1,18 @@
+# Peptide Super Guide
+
+A dependency-free static educational site about peptides, peptide medicines,
+evidence levels, safety red flags, and source quality.
+
+## Run locally
+
+Open `index.html` in a browser.
+
+## Scope
+
+This is education only. It does not provide medical advice, diagnosis,
+treatment, purchasing guidance, or dosing instructions.
+
+## Sources
+
+The site links to FDA, USAGov/MedlinePlus, and peer-reviewed review sources in
+the Source Map section.
