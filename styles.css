@@ -352,6 +352,91 @@ h3 {
   font-weight: 900;
 }
 
+.peptide-group {
+  margin-top: 34px;
+}
+
+.peptide-group:first-of-type {
+  margin-top: 0;
+}
+
+.group-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.group-heading h3 {
+  max-width: 680px;
+  margin: 0;
+}
+
+.status-badge {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.status-badge.approved {
+  background: var(--teal);
+}
+
+.status-badge.topical {
+  background: var(--blue);
+}
+
+.status-badge.caution {
+  background: var(--coral);
+}
+
+.peptide-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.peptide-card {
+  min-height: 236px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.peptide-card h4 {
+  margin: 0 0 10px;
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.peptide-card p {
+  color: var(--muted);
+}
+
+.peptide-card span {
+  display: block;
+  margin-top: 14px;
+  color: var(--teal-dark);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.compact-cards .peptide-card {
+  min-height: 190px;
+}
+
+.peptide-card.warning {
+  border-top: 5px solid var(--coral);
+}
+
 .filter-bar {
   margin-bottom: 22px;
 }
@@ -594,6 +679,7 @@ h3 {
 
   .quick-strip,
   .card-grid.three,
+  .peptide-grid,
   .evidence-grid,
   .question-grid,
   .glossary,
@@ -632,6 +718,11 @@ h3 {
     padding: 9px 10px;
   }
 
+  .nav {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+
   .hero {
     min-height: 76vh;
     padding: 58px 18px 46px;
@@ -657,6 +748,7 @@ h3 {
 
   .quick-strip,
   .card-grid.three,
+  .peptide-grid,
   .evidence-grid,
   .question-grid,
   .glossary,
@@ -672,6 +764,11 @@ h3 {
 
   .evidence-card {
     min-height: auto;
+  }
+
+  .group-heading {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .footer {

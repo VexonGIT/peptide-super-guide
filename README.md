@@ -1,7 +1,7 @@
 # Peptide Super Guide
 
 A dependency-free static educational site about peptides, peptide medicines,
-evidence levels, safety red flags, and source quality.
+named peptide examples, evidence levels, safety red flags, and source quality.
 
 ## Live site
 
